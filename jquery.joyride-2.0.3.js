@@ -617,8 +617,8 @@
         expose.css({
           top: el.offset().top,
           left: el.offset().left,
-          width: el.outerWidth(true),
-          height: el.outerHeight(true)
+          width: el.outerWidth(false),
+          height: el.outerHeight(false)
         });
         exposeCover = $(settings.template.exposeCover);
         origCSS = {
